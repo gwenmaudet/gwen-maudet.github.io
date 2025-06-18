@@ -6,7 +6,7 @@ theme: minima
 author: Gwen Maudet
 email: gwen.maudet@imt-atlantique.fr
 
-# Navigation links
+# Optional: Navigation links (for custom layouts or future theme upgrade)
 nav:
   - title: "Home"
     url: /
@@ -23,3 +23,11 @@ nav:
 
 markdown: kramdown
 show_excerpts: true
+
+# Minima theme config (for better academic look)
+minima:
+  skin: classic
+  social_links: []
+  # You can add orcid, scholar, linkedin here later
+
+# Github Pages compatibility (do not add plugins unless you know they are supported)
